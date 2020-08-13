@@ -1,0 +1,11 @@
+input-view {
+  match: Size
+
+  message {
+    choose (Random) {
+      template ("There are dogs that are tiny, small, medium, and large. Which would you like?")
+      template ("What size of a dog would you like?")
+    }
+  }
+}
+

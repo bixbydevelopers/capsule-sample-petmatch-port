@@ -1,0 +1,19 @@
+capsule {
+  id (playground.petmatch)
+  version (0.1.0)
+  format (3)
+  targets {
+    target (bixby-mobile-en-US)
+  }
+  runtime-version (7)
+  store-countries {
+    all
+  }
+  store-sections {
+    section(EducationAndReference)
+  }
+  default-action (Intro)
+  device-models {
+    all
+  }
+}

@@ -1,0 +1,6 @@
+enum (Shedding) {
+  description (Type of dog shedding)
+  symbol (no)
+  symbol (low)
+  symbol (high)
+}

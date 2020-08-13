@@ -1,0 +1,10 @@
+data:
+  deviceIsInHandsFreeMode: false
+  geo:
+    latitude: 37.334502
+    longitude: -121.890654
+  time: '2020-08-13T18:22:38.506Z'
+  tz: America/Los_Angeles
+steps:
+  step-NM2: ~
+version: 2

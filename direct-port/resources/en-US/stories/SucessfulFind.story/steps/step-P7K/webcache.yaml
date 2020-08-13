@@ -1,0 +1,25 @@
+- request:
+    capsuleId: playground.petmatch
+    headers:
+      Accept-Charset: UTF-8
+      Accept-Encoding: gzip
+      User-Agent: Mozilla/5.0 (compatible) gzip
+    method: GET
+    url: >-
+      https://e4v7rdwl7l.execute-api.us-east-1.amazonaws.com/Test?SSET=canine-low-large-family
+  response:
+    headers:
+      $status: []
+      Connection: keep-alive
+      Content-Length: '128'
+      Content-Type: application/json
+      Date: 'Thu, 13 Aug 2020 19:40:35 GMT'
+      Via: 1.1 2e8406c72a912812119ae9f6e5b386a7.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id: '-OimbKaZvSusy8ssySz3hErc3TvCTGNxvFCj3EJDaQxGh91gDbRE3w=='
+      X-Amz-Cf-Pop: YTO50-C1
+      X-Amzn-Trace-Id: Root=1-5f359733-61e8028d361a996a5a49cd1b
+      X-Cache: Miss from cloudfront
+      x-amz-apigw-id: ROSQIG0jIAMF_YQ=
+      x-amzn-RequestId: 9bd6d487-dc8b-417e-90d6-20c98dbf5029
+    responseFilename: webcache/e4v7rdwl7l.execute-api.us-east-1.amazonaws.com-1-res.json
+    status: 200

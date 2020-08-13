@@ -1,0 +1,12 @@
+train (t-j0qgefeb926974hkausomnybb) {
+  utterance ("[g:Energy:prompt] (medium)[v:Energy:medium]")
+  plan (Y2BikCrISaxML8ovzUvRK0gtyU0sSc7Qc81LLUqvxCvHCIQMDDxAzATEQDYA)
+  enabled (false)
+  last-modified (1597275129338)
+}
+train (t-jmaljtrhz7of1gcm6oy6yi7fv) {
+  utterance ("[g:DogBreed] I want a (carry in my purse)[v:Size:small] (protect me)[v:Temperament:guard] (dog)[v:Animal] at the (beach)[v:Location:beach]")
+  plan (Y2BnkCnISaxML8ovzUvRK0gtyU0sSc7Qc8lPdypKTU3BLusLIgNSSxiksMk65mXmJuZgl3PNSy1Kr8Ruqk9+cmJJZn4egwQ22eDMqlQGeWwyIam5BalFibmpeSUMbAyMDEwMzAwsDKxANgOQh4DIgBWImWCqAA==)
+  enabled (false)
+  last-modified (1597283142501)
+}

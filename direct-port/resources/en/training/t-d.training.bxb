@@ -1,0 +1,6 @@
+train (t-dx13au273y9uxiao8fknriyn4) {
+  utterance ("[g:DogBreed] I want a (small)[v:Size:small] (guard)[v:Temperament:guard] (dog)[v:Animal] on the (beach)[v:Location:beach]")
+  plan (Y2BnkCnISaxML8ovzUvRK0gtyU0sSc7Qc8lPdypKTU3BLusLIgNSSxiksMk65mXmJuZgl3PNSy1Kr8Ruqk9+cmJJZn4egwQ22eDMqlQGeWwyIam5BalFibmpeSUMbAyMDEwMzAwsDKxANgOQh4DIgBWImWCqAA==)
+  enabled (false)
+  last-modified (1597283140778)
+}

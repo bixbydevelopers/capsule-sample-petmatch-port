@@ -1,0 +1,10 @@
+train (t-v2qjgaf21qi3zx53bqp5ekpod) {
+  utterance ("[g:DogBreed] I want a (family)[v:Temperament:family] (unicorn)[v:Animal] (to watch Netflix with)[v:Energy:low]")
+  plan (Y2BjkCnISaxML8ovzUvRK0gtyU0sSc7Qc8lPdypKTU3BLusLIgNSSxiksMk65mXmJuZgl3PNSy1Kr2SQwCYXnFmVyiCPTSYkNbcgtSgxNzWvhIGVgZGBiYGZgQXIYgCyYRABWIAYpAIoDwA=)
+  last-modified (1597346634488)
+}
+train (t-v88lp78mwyydnnja66qsuevak) {
+  utterance ([g:Intro] start)
+  plan (Y2BikC3ISaxML8ovzUvRK0gtyU0sSc7QcynNza0MSa0oYZDEJu2ZV1KUz8AIhAxQDCQB)
+  last-modified (1597275129773)
+}

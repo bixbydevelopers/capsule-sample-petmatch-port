@@ -1,0 +1,15 @@
+// Empty result-view file. Can define the dialog here via a message instead of using
+// a Dialog - see DogBreed.dialog.bxb
+// result-view {
+//     match: DogBreed (db) {
+//     from-output: MatchPet {
+//        from-input: Size (size)
+//        from-input: Energy (energy)
+//        from-input: Temperament (temperament)
+//     }
+//   }
+  
+//   message {
+//     template("So a #{value(size)} #{value(temperament)} #{value(energy)} energy dog sounds good for you. Consider a #{value(db)}")
+//   }
+// }

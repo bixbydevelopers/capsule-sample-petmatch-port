@@ -1,0 +1,15 @@
+result-view {
+  match: DummyText () {
+    from-output: Help
+  }
+
+  message {
+    template ("This is pet match. I can help you find the perfect pet for you. You can say, I want a dog.")
+  }
+
+  conversation-drivers {
+    conversation-driver {
+      template ("I want a dog")
+    }
+  }
+}

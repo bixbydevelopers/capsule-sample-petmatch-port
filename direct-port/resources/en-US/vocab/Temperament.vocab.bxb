@@ -1,0 +1,27 @@
+vocab (Temperament) {
+  "watch" {
+    "watch"
+    "adult"
+    "barks"
+    // "barks at people" - Not needed "barks" handles
+  }
+  "guard" {
+    "guard"
+    "protective"
+    "protect"
+    "protect me"
+  }
+  "family" {
+    "family"
+    "kid"
+    "kids"
+    "family friends"
+    // Below not need, "kids" handles
+    //"good with kids"
+    //"hang out with kids"
+    //"gentle with kids"
+  }
+}
+
+
+

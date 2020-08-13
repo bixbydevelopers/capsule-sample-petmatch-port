@@ -1,0 +1,7 @@
+input-view {
+  match: Energy
+
+  message {
+    template ("Do you prefer high energy or low energy dogs?")
+  }
+}

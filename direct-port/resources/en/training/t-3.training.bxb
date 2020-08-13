@@ -1,0 +1,9 @@
+train (t-36848yulf8t6hixefcscqqy5c) {
+  utterance ([g:Help] help)
+  plan (Y2BikC3ISaxML8ovzUvRK0gtyU0sSc7QcynNza0MSa0oYZDAJu2RmlPAwAiEDFAMJAE=)
+  last-modified (1597275128487)
+}
+train (t-3qky54lk4h3o6u70qyawocjtx) {
+  utterance ("[g:DogBreed] I like (family)[v:Temperament:family] dogs")
+  last-modified (1597348889811)
+}

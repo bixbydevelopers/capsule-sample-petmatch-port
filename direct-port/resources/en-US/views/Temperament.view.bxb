@@ -1,0 +1,10 @@
+input-view {
+  match: Temperament
+
+  message {
+    choose (Random) {
+      template ("Are you looking for more of a family dog or a guard dog?")
+      template ("Would you prefer a dog to hang out with kids or to protect you?")
+    }
+  }
+}

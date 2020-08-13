@@ -1,0 +1,25 @@
+vocab (Energy) {
+  "low" {
+    "low"
+    "to cuddle with"
+    "to watch netflix with"
+    "lazy"
+  }
+  "medium" {
+    "medium"
+    "for an apartment"
+    "fun to play with"
+    "tug of war"
+    "plays tug of war"
+  }
+  "high" {
+    "high"
+    "run"
+    "frisbee"
+    "run"
+    "hike"
+    "fetch"
+    "hiking"
+    "energetic"
+  }
+}

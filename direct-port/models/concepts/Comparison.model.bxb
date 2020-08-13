@@ -1,0 +1,5 @@
+enum (Comparison) {
+  description (Comparison String)
+  symbol (greater than)
+  symbol (less than)
+}

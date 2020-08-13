@@ -1,0 +1,14 @@
+enum (Temperament) {
+  description (Pet temperament)
+  symbol (watch)
+  symbol (guard)
+  symbol (family)
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,20 @@
+train (t-853rhpqvg933yc3tcmfyrtx2k) {
+  utterance ("[g:DogBreed] I want a (dog)[v:Animal] to hang out with (kids)[v:Temperament:family]")
+  plan (Y2BjkCnISaxML8ovzUvRK0gtyU0sSc7Qc8lPdypKTU3BLusLIgNSSxiksMk65mXmJuZgl3PNSy1Kr2SQwCYXnFmVyiCPTSYkNbcgtSgxNzWvhIGVgZGBiYGZgQXIYgCyYRABmIGYCSQLAA==)
+  last-modified (1597275129124)
+}
+train (t-8xa80ojijffwyz8ojoggn1vsw) {
+  utterance ("[g:DogBreed] I want a (dog)[v:Animal] that is more than (5)[v:Amount] (inches)[v:Units:height]")
+  plan (Y+BgkCnISaxML8ovzUvRK0gtyU0sSc7Qc8lPdypKTU3BLusLIgNSSxiksMk65gL5uOTyMnMTc7DLuealFqVXMkhgkwvOrEplkMcmE5KaW5BalJibCrRSEpuC0LzMkmIGdgZGBiYGZgYWBlYGNiCPAchHhqiABYhBqoHqAA==)
+  last-modified (1597275128864)
+}
+train (t-8xts5zop1g5pmzpvtk16vgs34) {
+  utterance ("[g:DogBreed] I want a (take on an airplane)[v:Size:small] (watch)[v:Temperament:watch] (dog)[v:Animal] (to cuddle with)[v:Energy:low]")
+  plan (Y2BjkCnISaxML8ovzUvRK0gtyU0sSc7Qc8lPdypKTU3BLusLIgNSSxiksMk65mXmJuZgl3PNSy1Kr2SQwCYXnFmVyiCPTSYkNbcgtSgxNzWvhIGVgZGBiYGZgQXIYgCyYRABQOJwFQA=)
+  last-modified (1597275129167)
+}
+train (t-8f463xrrz3dgl8j8991htxst9) {
+  utterance ("[g:DogBreed] I want a (low)[v:Energy:low] energy (dog)[v:Animal] at the (beach)[v:Location:beach]")
+  enabled (false)
+  last-modified (1597283144496)
+}

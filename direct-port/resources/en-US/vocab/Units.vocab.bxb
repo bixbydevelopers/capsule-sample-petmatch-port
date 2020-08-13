@@ -1,0 +1,16 @@
+// Quite odd synonyms in Alexa skill - would want the unit type passed in
+// copying for completeness sake but this is a bad idea/design pattern
+vocab (Units) {
+  "height" {
+    "inches"
+    "cm"
+    "centimeters"
+    "meters"
+    "feet"
+  }
+  "weight" {
+    "pounds"
+    "kilograms"
+    "ounces"
+  }
+}
