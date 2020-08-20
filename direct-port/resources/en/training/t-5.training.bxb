@@ -1,5 +1,5 @@
 train (t-5pdmbw58zcpkd0kkeru3zspgv) {
-  utterance ("[g:DogBreed] A (large)[v:Size:large] (low)[v:Shedding:low] shed (dog)[v:Animal]")
+  utterance ("[g:DogBreed] A (large)[v:Size:large] (low)[v:Shedding:low] shed (dog)[v:Animal:dog]")
   plan (Y2BnkCnISaxML8ovzUvRK0gtyU0sSc7Qc8lPdypKTU3BLusLIgNSSxiksMk65mXmJuZgl3PNSy1Kr8RuanBGakpKZl46gwRW2cyqVAZ5bDIhqbkFqUWJual5JQxsDIwMTAzMDCwMrEA2A5CHgMiABYiZwKoYAA==)
   last-modified (1597275128515)
 }

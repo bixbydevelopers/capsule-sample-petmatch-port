@@ -1,5 +1,5 @@
 train (t-6dajlm32cxcubidq5n3x6vbgi) {
-  utterance ("[g:DogBreed] I want a (small)[v:Size:small] (guard)[v:Temperament:guard] (dog)[v:Animal]")
+  utterance ("[g:DogBreed] I want a (small)[v:Size:small] (guard)[v:Temperament:guard] (dog)[v:Animal:dog]")
   plan (Y2BjkCnISaxML8ovzUvRK0gtyU0sSc7Qc8lPdypKTU3BLusLIgNSSxiksMk65mXmJuZgl3PNSy1Kr2SQwCYXnFmVyiCPTSYkNbcgtSgxNzWvhIGVgZGBiYGZgQXIYgCyYRABWICYCSIPAA==)
   last-modified (1597275128736)
 }

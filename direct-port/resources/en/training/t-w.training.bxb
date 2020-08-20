@@ -1,10 +1,10 @@
 train (t-w9ucpcpd1cy0hi6oc9vxy1mzc) {
-  utterance ("[g:DogBreed] I want a (large)[v:Size:large] (medium)[v:Energy:medium] energy (unicorn)[v:Animal]")
+  utterance ("[g:DogBreed] I want a (large)[v:Size:large] (medium)[v:Energy:medium] energy (unicorn)[v:Animal:unicorn]")
   plan (Y2BjkCnISaxML8ovzUvRK0gtyU0sSc7Qc8lPdypKTU3BLusLIgNSSxiksMk65mXmJuZgl3PNSy1Kr2SQwCYXnFmVyiCPTSYkNbcgtSgxNzWvhIGVgZGBiYGZgQXIYgCyYRABWIAYooIBAA==)
-  last-modified (1597346713706)
+  last-modified (1597881013218)
 }
 train (t-wf3y343enppdcpqhuyk82ife4) {
-  utterance ("[g:DogBreed] I want a (large)[v:Size:large] (family)[v:Temperament:family] (dog)[v:Animal] that is (fun to play with)[v:Energy:medium]")
+  utterance ("[g:DogBreed] I want a (large)[v:Size:large] (family)[v:Temperament:family] (dog)[v:Animal:dog] that is (fun to play with)[v:Energy:medium]")
   plan (Y2BjkCnISaxML8ovzUvRK0gtyU0sSc7Qc8lPdypKTU3BLusLIgNSSxiksMk65mXmJuZgl3PNSy1Kr2SQwCYXnFmVyiCPTSYkNbcgtSgxNzWvhIGVgZGBiYGZgQXIYgCyYRABQOJwFQA=)
   last-modified (1597275129850)
 }

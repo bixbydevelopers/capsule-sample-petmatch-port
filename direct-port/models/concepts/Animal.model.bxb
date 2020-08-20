@@ -1,3 +1,7 @@
-name (Animal) {
-  description (Animal)
+enum (Animal) {
+  description (Type of animal searching for)
+  symbol (dog)
+  symbol (unicorn)
+  symbol (chimera)
+  symbol (dragon)
 }

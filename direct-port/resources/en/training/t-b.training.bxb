@@ -1,5 +1,5 @@
 train (t-b3mklz3kdwnwwwvfy8gchjdc9) {
-  utterance ("[g:DogBreed] An (up to my knees)[v:Size:medium] (mouth full of hair)[v:Shedding:high] (dog)[v:Animal]")
+  utterance ("[g:DogBreed] An (up to my knees)[v:Size:medium] (mouth full of hair)[v:Shedding:high] (dog)[v:Animal:dog]")
   plan (Y2BnkCnISaxML8ovzUvRK0gtyU0sSc7Qc8lPdypKTU3BLusLIgNSSxiksMk65mXmJuZgl3PNSy1Kr8RuanBGakpKZl46gwRW2cyqVAZ5bDIhqbkFqUWJual5JQxsDIwMTAzMDCwMrEA2A5CHgMiABYiZwKoYAA==)
   last-modified (1597275128993)
 }
