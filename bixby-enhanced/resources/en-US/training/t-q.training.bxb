@@ -1,0 +1,9 @@
+train (t-qodi0um1kw3b3oze4hfdcxhhb) {
+  utterance ("[g:DogBreed] I want a (large)[v:Size:large] (unicorn)[v:Animal:unicorn] that is (high)[v:Energy:high] energy")
+  plan (Y2BjkCnISaxML8ovzUvRK0gtyU0sSc7Qc8lPdypKTU3BLusLIgNSSxiksMk65mXmJuZgl3PNSy1Kr2SQwCYXnFmVyiCPTSYkNbcgtSgxNzWvhIGVgZGBiYGZgQXIYgCyYRABWIAYooIBAA==)
+  last-modified (1597880993406)
+}
+train (t-qll00wsnx799m61kunutsljkb) {
+  utterance ("[g:DogBreed] We prefer a (family)[v:Temperament:family] friendly (unicorn)[v:Animal:unicorn]")
+  last-modified (1597880968613)
+}

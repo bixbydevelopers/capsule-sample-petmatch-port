@@ -1,0 +1,8 @@
+// Not used in Alexa skill, shown as an example
+enum (Location) {
+  description (Location types)
+  symbol (beach)
+  symbol (mountains)
+  symbol (dog park)
+  symbol (trail)
+}

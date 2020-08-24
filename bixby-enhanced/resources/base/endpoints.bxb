@@ -1,0 +1,11 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (MatchPet) {
+      accepted-inputs (animal, energy, size, temperament, location, shedding, $vivContext)
+      local-endpoint (MatchPet.js)
+    }
+  }
+}
+
+
+

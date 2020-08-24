@@ -1,0 +1,50 @@
+template-macro-def (DogBreedMacro) {
+  params {
+    param (size) {
+      type (Size)
+      max (One)
+      min (Required)
+    }
+    param (temperament) {
+      type (Temperament)
+      max (One)
+      min (Required)
+    }
+    param (energy) {
+      type (Energy)
+      max (One)
+      min (Required)
+    }
+    param (dogBreed) {
+      type (DogBreed)
+      max (One)
+      min (Required)
+    }
+  }
+  content {
+    template ("So a #{value(size)} #{value(temperament)} #{value(energy)} energy dog sounds good for you. Consider a #{value(dogBreed.breed)}")
+  }
+}
+
+template-macro-def (DogBreedNoMatch) {
+  params {
+    param (size) {
+      type (Size)
+      max (One)
+      min (Required)
+    }
+    param (temperament) {
+      type (Temperament)
+      max (One)
+      min (Required)
+    }
+    param (energy) {
+      type (Energy)
+      max (One)
+      min (Required)
+    }
+  }
+  content {
+    template ("I'm sorry I couldn't find a match for a #{value(size)} #{value(temperament)} #{value(energy)} energy dog")
+  }
+}

@@ -1,0 +1,5 @@
+train (t-ckkx3g0u812elklftuzb4btvc) {
+  utterance ("[g:DogBreed] I want a (large)[v:Size:large] (dog)[v:Animal:dog]")
+  plan (Y2BjkCnISaxML8ovzUvRK0gtyU0sSc7Qc8lPdypKTU3BLusLIgNSSxiksMk65mXmJuZgl3PNSy1Kr2SQwCYXnFmVyiCPTSYkNbcgtSgxNzWvhIGVgZGBiYGZgQXIYgCyYRABmIGYCSjPAAA=)
+  last-modified (1597275128948)
+}

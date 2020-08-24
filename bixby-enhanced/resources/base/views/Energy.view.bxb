@@ -1,0 +1,35 @@
+input-view {
+  match: Energy (energy)
+
+  message {
+    template-macro (energyQ)
+  }
+
+  render {
+    selection-of (energy) {
+      where-each (one) {
+        cell-card {
+          on-click {
+            intent {
+              goal: Energy
+              value: $expr (one)
+            }
+          }
+          slot1 {
+            image {
+              url ("images/dog-icons/#{value(one)}.png")
+              shape (Circle)
+            }
+          }
+          slot2 {
+            content {
+              primary {
+                template ("#{value (one)}")
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

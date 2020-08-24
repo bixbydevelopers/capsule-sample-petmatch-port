@@ -1,0 +1,6 @@
+enum (Energy) {
+  description (Energy of Pet)
+  symbol (low)
+  symbol (medium)
+  symbol (high)
+}

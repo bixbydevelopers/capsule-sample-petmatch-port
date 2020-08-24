@@ -1,0 +1,15 @@
+result-view {
+  match: DummyText () {
+    from-output: Intro
+  }
+
+  message {
+    template-macro (welcome)
+    }
+
+  conversation-drivers {
+    conversation-driver {
+      template-macro (wantDog)
+    }
+  }
+}

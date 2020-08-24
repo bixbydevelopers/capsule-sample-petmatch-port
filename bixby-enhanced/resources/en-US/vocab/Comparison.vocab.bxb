@@ -1,0 +1,14 @@
+vocab (Comparison) {
+  "greater than" {
+    "greater than"
+    "more"
+    "more than"
+    "over"
+  }
+  "less than" {
+    "less than"
+    "less"
+    "under"
+    "shorter than"
+  }
+}

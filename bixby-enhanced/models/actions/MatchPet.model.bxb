@@ -1,0 +1,120 @@
+// locationType and sheddingType are included to match Alexa skill but are unused here and in the Alexa skill
+// {article} from Alexa skill not needed for Bixby - NLU handles this
+// {IWantType} from Alexa skill not needed for Bixby - NLU handles this
+// {atTheType} from Alexa skill - appears not used by Alexa, if used likely not needed by Bixby, NLU handles this
+action (MatchPet) {
+  type (Search)
+  description (Find a pet match)
+  collect {
+    input (animal) {
+      type (Animal)
+      min (Required)
+      max (One)
+      default-init {
+        intent {
+          value: Animal ("dog")
+          goal: Animal
+        }
+      }
+      validate {
+        if (regexAllMatch(animal, 'unicorn|chimera|dragon')) {
+          halt {
+            dialog {
+              template("#{macro('funnyAnimal',animal)}")
+            }
+          }
+        }
+      }
+    }
+    input (size) {
+      type (Size)
+      min (Required)
+      max (One)
+      default-init {
+        // Possible values are the enum values - code below shows enum values
+        intent {
+          goal: Size
+          value-set {
+            @prompt-behavior (AlwaysElicitation)
+            Size
+          }
+        }
+      }
+    }
+    input (temperament) {
+      type (Temperament)
+      min (Required)
+      max (One)
+      default-init {
+        // Possible values are the enum values - code below shows enum values
+        intent {
+          goal: Temperament
+          value-set {
+            @prompt-behavior (AlwaysElicitation)
+            Temperament
+          }
+        }
+      }
+    }
+    input (energy) {
+      type (Energy)
+      min (Required)
+      max (One)
+      default-init {
+        // Possible values are the enum values - code below shows enum values
+        intent {
+          goal: Energy
+          value-set {
+            @prompt-behavior (AlwaysElicitation)
+            Energy
+          }
+        }
+      }
+    }
+    input (location) {
+      type (Location)
+      min (Optional)
+      max (One)
+    }
+    input (shedding) {
+      type (Shedding)
+      min (Optional)
+      max (One)
+    }
+    input (comparison) {
+      type (Comparison)
+      min (Optional)
+      max (One)
+    }
+    input (amount) {
+      type (Amount)
+      min (Optional)
+      max (One)
+    }
+    input (units) {
+      type (Units)
+      min (Optional)
+      max (One)
+    }
+  }
+  output (DogBreed) {
+    throws {
+      error (APIError) {
+        on-catch {
+          halt {
+            dialog {
+              template-macro (errorMess)
+            }
+          }
+        }
+      }
+    }
+    on-empty {
+      halt {
+        dialog {
+          template ("#{macro('DogBreedNoMatch',size,temperament,energy)}")
+        }
+      }
+    }
+  }
+}

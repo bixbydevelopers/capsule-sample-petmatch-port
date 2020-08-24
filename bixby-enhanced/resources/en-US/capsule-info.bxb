@@ -1,0 +1,11 @@
+capsule-info {
+  display-name (Pet Match Port)
+  developer-name (Roger Kibbe - @rogerkibbe)
+  description ("Alexa Pet Match skill ported to Bixby")
+  dispatch-name (Pet Match)
+  icon-asset (images/capsule-icon/bixby_launcher.png)
+  search-keywords {
+    keyword (pet)
+    keyword (match)
+  }
+}

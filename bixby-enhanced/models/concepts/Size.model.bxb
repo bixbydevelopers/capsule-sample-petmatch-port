@@ -1,0 +1,7 @@
+enum (Size) {
+  description (Size of Pet)
+  symbol (tiny)
+  symbol (small)
+  symbol (medium)
+  symbol (large)
+}

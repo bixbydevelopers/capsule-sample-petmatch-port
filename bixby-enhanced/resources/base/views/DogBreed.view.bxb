@@ -1,0 +1,53 @@
+result-view {
+  match: DogBreed (dogBreed) {
+    from-output: MatchPet {
+      from-input: Size (size)
+      from-input: Energy (energy)
+      from-input: Temperament (temperament)
+    }
+  }
+  message {
+    // If user is in handsFree mode, read long description via voice
+    if ($handsFree) {
+      template ("#{macro('DogBreedMacro',size,temperament,energy,dogBreed)}") {
+        speech ("#{macro('DogBreedMacro',size,temperament,energy,dogBreed)}[. #{value(dogBreed.description)}]")
+      }
+    }
+    else {
+      template ("#{macro('DogBreedMacro',size,temperament,energy,dogBreed)}")
+    }
+  }
+
+  render {
+    layout {
+      section {
+        content {
+          if (exists(dogBreed.image)) {
+            image {
+              url ("/images/dog-images/#{value(dogBreed.image)}")
+            }
+            attribution-link {
+              label {
+                template-macro (imagePixabay)
+              }
+              url ("https://pixabay.com/")
+            }
+          }
+          else-if (!exists(dogBreed.breed)) {
+            image {
+              url ("/images/sorry.jpg")
+            }
+          }
+        }
+      }
+      section {
+        content {
+          paragraph {
+            style (Title_XS)
+            value ("[#{value(dogBreed.description)}]")
+          }
+        }
+      }
+    }
+  }
+}

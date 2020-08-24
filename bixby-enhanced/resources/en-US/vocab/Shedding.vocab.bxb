@@ -1,0 +1,17 @@
+// Not used in Alexa skill for finding a dog, shown as an example
+vocab (Shedding) {
+  "no" {
+    "no"
+    "hypoallergenic"
+  }
+  "low" {
+    "low"
+    "groom"
+  }
+  "high" {
+    "high"
+    "no hair cutting"
+    "mouth full of hair"
+    "long hair"
+  }
+}

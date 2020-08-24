@@ -1,0 +1,35 @@
+input-view {
+  match: Size (size)
+
+  message {
+    template-macro (sizeQ)
+  }
+
+  render {
+    selection-of (size) {
+      where-each (one) {
+        cell-card {
+          on-click {
+            intent {
+              goal: Size
+              value: $expr (one)
+            }
+          }
+          slot1 {
+            image {
+              url ("images/dog-icons/#{value(one)}-size.png")
+              shape (Circle)
+            }
+          }
+          slot2 {
+            content {
+              primary {
+                template ("#{value (one)}")
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

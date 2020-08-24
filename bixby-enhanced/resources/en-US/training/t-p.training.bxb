@@ -1,0 +1,5 @@
+train (t-pynik9rblu6i8vkq4p57oez3v) {
+  utterance ("[g:DogBreed] I want a (small)[v:Size:small] (dog)[v:Animal:dog] that is (fun to play with)[v:Energy:medium]")
+  plan (Y2BjkCnISaxML8ovzUvRK0gtyU0sSc7Qc8lPdypKTU3BLusLIgNSSxiksMk65mXmJuZgl3PNSy1Kr2SQwCYXnFmVyiCPTSYkNbcgtSgxNzWvhIGVgZGBiYGZgQXIYgCyYRABWIAYooIBAA==)
+  last-modified (1597347011047)
+}

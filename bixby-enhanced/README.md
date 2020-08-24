@@ -1,12 +1,26 @@
 <p align="Center">
   <img src="https://bixbydevelopers.com/dev/docs-assets/resources/dev-guide/bixby_logo_github-11221940070278028369.png">
   <br/>
-  <h1 align="Center">Bixby Pet Match - Enhanced</h1>
+  <h1 align="Center">Bixby Pet Match - Bixby Enhanced</h1>
 </p>
 
 ## Description
 
-This capsule is under development
+This capsule is a port of the Alexa [Pet Match skill](https://github.com/alexa/skill-sample-nodejs-petmatch) to Bixby with Bixby enhancements. The standard version (non Bixby enhanced, straight port) is available [here](../direct-port/)
+
+Bixby enhancements include:
+- UI for all input views (use voice or select using UI)
+- Local or remote data (local data includes description and dog image)
+- Best localization practices followed for Bixby e.g. usage of dialog macros (data is not localized) 
+
+## Usage
+
+To test this, open the simulator and run:
+
+`Start`
+
+Try this capsule using a [device](https://bixbydevelopers.com/dev/docs/dev-guide/developers/testing.on-device)
+
 
 ---
 

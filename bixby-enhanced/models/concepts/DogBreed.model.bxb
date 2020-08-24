@@ -1,0 +1,26 @@
+structure (DogBreed) {
+  description (Recommended dog breed)
+  property (breed) {
+    type (core.Text)
+    min (Required)
+    max (One)
+    visibility (Private)
+  }
+  property (description) {
+    type (core.Text)
+    min (Optional)
+    max (One)
+    visibility (Private)
+  }
+  property (image) {
+    type (core.Text)
+    min (Optional)
+    max (One)
+    visibility (Private)
+  }
+}
+
+
+// name (DogBreed) {
+//   description (Recommended Dog)
+// }

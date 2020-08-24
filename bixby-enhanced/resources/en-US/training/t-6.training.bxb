@@ -1,0 +1,10 @@
+train (t-6dajlm32cxcubidq5n3x6vbgi) {
+  utterance ("[g:DogBreed] I want a (small)[v:Size:small] (guard)[v:Temperament:guard] (dog)[v:Animal:dog]")
+  plan (Y2BjkCnISaxML8ovzUvRK0gtyU0sSc7Qc8lPdypKTU3BLusLIgNSSxiksMk65mXmJuZgl3PNSy1Kr2SQwCYXnFmVyiCPTSYkNbcgtSgxNzWvhIGVgZGBiYGZgQXIYgCyYRABWICYCSIPAA==)
+  last-modified (1597275128736)
+}
+train (t-6x7wrv3u1qrgg1ss7s92qemkn) {
+  utterance ("[g:Size:prompt] (eat me out of the house)[v:Size:large]")
+  plan (Y2BikCjISaxML8ovzUvRK0gtyU0sSc7QC86sSsUjwwiEDAw8QMwExEA2AA==)
+  last-modified (1597275128351)
+}

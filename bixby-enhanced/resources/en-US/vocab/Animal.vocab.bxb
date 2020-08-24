@@ -1,0 +1,18 @@
+vocab (Animal) {
+  "dog" {
+    "dog"
+    "dogs"
+  }
+  "unicorn" {
+    "unicorn"
+    "unicorns"
+  }
+  "chimera" {
+    "chimera"
+    "chimeras"
+  }
+  "dragon" {
+    "dragon"
+    "dragons"
+  }
+}

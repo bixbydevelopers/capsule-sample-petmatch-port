@@ -1,0 +1,10 @@
+train (t-ggyruijrhhd92sne1olarmx6p) {
+  utterance ("[g:Size:prompt] I want (large)[v:Size:large]")
+  plan (Y2BikCjISaxML8ovzUvRK0gtyU0sSc7QC86sSsUjwwiEDAw8QMwExEA2AA==)
+  last-modified (1597275129033)
+}
+train (t-gtik4v715qp8o7v60jww5ma76) {
+  utterance ("[g:DogBreed] A (hypoallergenic)[v:Shedding:no] (large)[v:Size:large] (dog)[v:Animal:dog]")
+  plan (Y2BnkCnISaxML8ovzUvRK0gtyU0sSc7Qc8lPdypKTU3BLusLIgNSSxiksMk65mXmJuZgl3PNSy1Kr8RuanBGakpKZl46gwRW2cyqVAZ5bDIhqbkFqUWJual5JQxsDIwMTAzMDCwMrEA2A5CHgMiABYiZwKoYAA==)
+  last-modified (1597275129299)
+}

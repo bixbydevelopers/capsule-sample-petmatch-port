@@ -1,0 +1,20 @@
+train (t-01l56mssspm1mvs9tvpvq62lx) {
+  utterance ("[g:Size:prompt] (medium)[v:Size:medium]")
+  plan (Y2BikCjISaxML8ovzUvRK0gtyU0sSc7QC86sSsUjwwiEDAw8QMwExEA2AA==)
+  last-modified (1597275128384)
+}
+train (t-03ll01spbgsem7etg11ow1a1v) {
+  utterance ("[g:DogBreed] A (mouth full of hair)[v:Shedding:high] (eat me out of the house)[v:Size:large] (dog)[v:Animal:dog]")
+  plan (Y2BnkCnISaxML8ovzUvRK0gtyU0sSc7Qc8lPdypKTU3BLusLIgNSSxiksMk65mXmJuZgl3PNSy1Kr8RuanBGakpKZl46gwRW2cyqVAZ5bDIhqbkFqUWJual5JQxsDIwMTAzMDCwMrEA2A5CHgMiABYiZwKoYAA==)
+  last-modified (1597880954916)
+}
+train (t-0hdk5n5zlglrx75t0fexgdo41) {
+  utterance ("[g:Energy:prompt] (low)[v:Energy:low] energy")
+  plan (Y2BikCrISaxML8ovzUvRK0gtyU0sSc7Qc81LLUqvxCvHCIQMDDxAzATEQDYA)
+  last-modified (1597275128541)
+}
+train (t-0om1w34gb78gvmlipppmj5xyt) {
+  utterance ("[g:DogBreed] I want a (high)[v:Energy:high] energy (unicorn)[v:Animal:unicorn]")
+  plan (Y2BjkCnISaxML8ovzUvRK0gtyU0sSc7Qc8lPdypKTU3BLusLIgNSSxiksMk65mXmJuZgl3PNSy1Kr2SQwCYXnFmVyiCPTSYkNbcgtSgxNzWvhIGVgZGBiYGZgQXIYgCyYRABmIEYpIIBAA==)
+  last-modified (1597880893963)
+}

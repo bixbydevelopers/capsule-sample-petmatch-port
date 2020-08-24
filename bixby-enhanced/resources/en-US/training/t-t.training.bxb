@@ -1,0 +1,10 @@
+train (t-t3y4v2cn27pp0oldbt8rxwvcq) {
+  utterance ("[g:DogBreed] I want a (family)[v:Temperament:family] friendly (dog)[v:Animal:dog] that is (fun to play with)[v:Energy:medium]")
+  plan (Y2BjkCnISaxML8ovzUvRK0gtyU0sSc7Qc8lPdypKTU3BLusLIgNSSxiksMk65mXmJuZgl3PNSy1Kr2SQwCYXnFmVyiCPTSYkNbcgtSgxNzWvhIGVgZGBiYGZgQXIYgCyYRABWIAYpAIoDwA=)
+  last-modified (1597881045828)
+}
+train (t-t97zup14uzg19ykn0jo6s9xc3) {
+  utterance ("[g:DogBreed] I want a (large)[v:Size:large], (low)[v:Energy:low] energy (family)[v:Temperament:family] (dog)[v:Animal:dog]")
+  plan (Y2BjkCnISaxML8ovzUvRK0gtyU0sSc7Qc8lPdypKTU3BLusLIgNSSxiksMk65mXmJuZgl3PNSy1Kr2SQwCYXnFmVyiCPTSYkNbcgtSgxNzWvhIGVgZGBiYGZgQXIYgCyYRABQOJwFQA=)
+  last-modified (1597881063424)
+}

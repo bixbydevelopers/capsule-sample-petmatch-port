@@ -6,7 +6,7 @@
 
 ## Description
 
-This capsule is a port of the Alexa [Pet Match skill](https://github.com/alexa/skill-sample-nodejs-petmatch) to Bixby. 
+This capsule is a port of the Alexa [Pet Match skill](https://github.com/alexa/skill-sample-nodejs-petmatch) to Bixby. A Bixby enhanced port is available [here](../bixby-enhanced/)
 
 ## Usage
 
