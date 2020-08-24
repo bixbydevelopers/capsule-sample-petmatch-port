@@ -11,7 +11,8 @@ This capsule is a port of the Alexa [Pet Match skill](https://github.com/alexa/s
 Bixby enhancements include:
 - UI for all input views (use voice or select using UI)
 - Local or remote data (local data includes description and dog image)
-- Best localization practices followed for Bixby e.g. usage of dialog macros (data is not localized) 
+- Best localization practices followed for Bixby e.g. usage of dialog macros (data is not localized)
+- Support for Watch and Refrigerator as targets
 
 ## Usage
 
