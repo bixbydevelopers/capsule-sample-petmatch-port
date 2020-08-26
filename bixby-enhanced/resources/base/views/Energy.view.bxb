@@ -2,7 +2,7 @@ input-view {
   match: Energy (energy)
 
   message {
-    template-macro (energyQ)
+    template-macro (ENERGYQ)
   }
 
   render {

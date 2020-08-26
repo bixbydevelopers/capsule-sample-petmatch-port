@@ -9,12 +9,12 @@ result-view {
   message {
     // If user is in handsFree mode, read long description via voice
     if ($handsFree) {
-      template ("#{macro('DogBreedMacro',size,temperament,energy,dogBreed)}") {
-        speech ("#{macro('DogBreedMacro',size,temperament,energy,dogBreed)}[. #{value(dogBreed.description)}]")
+      template ("#{macro('DOGBREED',size,temperament,energy,dogBreed)}") {
+        speech ("#{macro('DOGBREED',size,temperament,energy,dogBreed)}[. #{value(dogBreed.description)}]")
       }
     }
     else {
-      template ("#{macro('DogBreedMacro',size,temperament,energy,dogBreed)}")
+      template ("#{macro('DOGBREED',size,temperament,energy,dogBreed)}")
     }
   }
 
@@ -28,7 +28,7 @@ result-view {
             }
             attribution-link {
               label {
-                template-macro (imagePixabay)
+                template-macro (IMAGEPIXABAY)
               }
               url ("https://pixabay.com/")
             }
@@ -50,4 +50,5 @@ result-view {
       }
     }
   }
+  
 }

@@ -1,24 +1,24 @@
-template-macro-def (imagePixabay) {
+template-macro-def (IMAGEPIXABAY) {
   content: template ("Images from Pixabay")
 }
 
-template-macro-def (energyQ) {
+template-macro-def (ENERGYQ) {
   content: template ("Do you prefer high energy or low energy dogs?")
 }
 
-template-macro-def (helpText) {
+template-macro-def (HELPTEXT) {
   content: template ("This is pet match. I can help you find the perfect pet for you. You can say, I want a dog.")
 }
 
-template-macro-def (wantDog) {
+template-macro-def (WANTDOG) {
   content: template ("I want a dog")
 }
 
-template-macro-def (welcome) {
+template-macro-def (WELCOME) {
   content: template ("Welcome to Pet Match. I can help you find the best dog for you. Tell me what are two things you are looking for in a dog")
 }
 
-template-macro-def (sizeQ) {
+template-macro-def (SIZEQ) {
   content {
     choose (Random) {
       template ("There are dogs that are tiny, small, medium, and large. Which would you like?")
@@ -27,7 +27,7 @@ template-macro-def (sizeQ) {
   }
 }
 
-template-macro-def (temperamentQ) {
+template-macro-def (TEMPERAMENTQ) {
   content {
     choose (Random) {
       template ("Are you looking for more of a family dog or a guard dog?")
@@ -36,23 +36,10 @@ template-macro-def (temperamentQ) {
   }
 }
 
-template-macro-def (errorMess) {
+template-macro-def (ERRORMESS) {
   content: template ("I am really sorry. I am unable to access part of my memory. Please try again later")
 }
 
-template-macro-def (funnyAnimal) {
-  params {
-    param (animal) {
-      type (Animal)
-      max (One)
-      min (Required)
-    }
-  }
-  content {
-    choose (Random) {
-      template ("I'm sorry, but I'm not qualified to match you with a #{value(animal)}.")
-      template ("Ah yes, #{value(animal)}s are splendid creatures, but unfortunately owning one as a pet is outlawed.")
-      template ("I'm sorry I can't match you with a #{value(animal)}.")
-    }
-  }
+template-macro-def (HELP) {
+  content: template ("Help")
 }

@@ -4,12 +4,34 @@ result-view {
   }
 
   message {
-    template-macro (welcome)
+    template-macro (WELCOME)
+  }
+
+  render {
+    layout {
+      section {
+        content {
+          image {
+            aspect-ratio (4:3)
+            url (/images/dog-love.png)
+          }
+          attribution-link {
+            label {
+              template-macro (IMAGEPIXABAY)
+            }
+            url ("https://pixabay.com/")
+          }
+        }
+      }
     }
+  }
 
   conversation-drivers {
     conversation-driver {
-      template-macro (wantDog)
+      template-macro (WANTDOG)
+    }
+    conversation-driver {
+      template-macro (HELP)
     }
   }
 }

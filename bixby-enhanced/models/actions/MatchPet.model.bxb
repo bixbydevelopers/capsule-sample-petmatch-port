@@ -20,7 +20,7 @@ action (MatchPet) {
         if (regexAllMatch(animal, 'unicorn|chimera|dragon')) {
           halt {
             dialog {
-              template("#{macro('funnyAnimal',animal)}")
+              template("#{macro('FUNNYANIMAL',animal)}")
             }
           }
         }
@@ -103,7 +103,7 @@ action (MatchPet) {
         on-catch {
           halt {
             dialog {
-              template-macro (errorMess)
+              template-macro (ERRORMESS)
             }
           }
         }
@@ -112,7 +112,7 @@ action (MatchPet) {
     on-empty {
       halt {
         dialog {
-          template ("#{macro('DogBreedNoMatch',size,temperament,energy)}")
+          template ("#{macro('DOGBREEDNOMATCH',size,temperament,energy)}")
         }
       }
     }

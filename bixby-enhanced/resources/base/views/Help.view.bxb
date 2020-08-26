@@ -4,12 +4,13 @@ result-view {
   }
 
   message {
-    template-macro (helpText)
+    template-macro (HELPTEXT)
   }
 
   conversation-drivers {
     conversation-driver {
-      template-macro (wantDog)
+      template-macro (WANTDOG)
     }
   }
+  
 }

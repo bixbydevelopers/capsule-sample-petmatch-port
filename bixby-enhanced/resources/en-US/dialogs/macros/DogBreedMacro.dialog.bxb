@@ -1,4 +1,4 @@
-template-macro-def (DogBreedMacro) {
+template-macro-def (DOGBREED) {
   params {
     param (size) {
       type (Size)
@@ -26,7 +26,7 @@ template-macro-def (DogBreedMacro) {
   }
 }
 
-template-macro-def (DogBreedNoMatch) {
+template-macro-def (DOGBREEDNOMATCH) {
   params {
     param (size) {
       type (Size)
@@ -46,5 +46,22 @@ template-macro-def (DogBreedNoMatch) {
   }
   content {
     template ("I'm sorry I couldn't find a match for a #{value(size)} #{value(temperament)} #{value(energy)} energy dog")
+  }
+}
+
+template-macro-def (FUNNYANIMAL) {
+  params {
+    param (animal) {
+      type (Animal)
+      max (One)
+      min (Required)
+    }
+  }
+  content {
+    choose (Random) {
+      template ("I'm sorry, but I'm not qualified to match you with a #{value(animal)}.")
+      template ("Ah yes, #{value(animal)}s are splendid creatures, but unfortunately owning one as a pet is outlawed.")
+      template ("I'm sorry I can't match you with a #{value(animal)}.")
+    }
   }
 }

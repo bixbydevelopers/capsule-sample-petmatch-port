@@ -2,7 +2,7 @@ input-view {
   match: Temperament (temperament)
 
   message {
-    template-macro (temperamentQ)
+    template-macro (TEMPERAMENTQ)
   }
   render {
     selection-of (temperament) {
